@@ -29,7 +29,7 @@ Instead of manually clicking through hundreds of resources in the Azure Portal t
 
 ## 🛠️ Technologies Used
 
-- **Language:** Python 3.11+
+- **Language:** Python 3.14+
 - **Cloud Platform:** Microsoft Azure
 - **Azure SDKs:** `azure-mgmt-compute`, `azure-mgmt-storage`, `azure-mgmt-keyvault`, `azure-identity`
 - **Authentication:** Azure Entra ID, Managed Identities, DefaultAzureCredential
