@@ -71,7 +71,11 @@ Instead of manually clicking through hundreds of resources in the Azure Portal t
 
 <img width="1302" height="670" alt="image" src="https://github.com/user-attachments/assets/8046a65f-f785-467e-b7b6-083ac5c2cac8" />
 
+<img width="1568" height="293" alt="image" src="https://github.com/user-attachments/assets/1d933e4e-3a47-4e05-b0d4-0b606001c9b6" />
+
 *The tool detected public/anonymous blob access enabled on `grcappsadh2s4j` and flagged it as NON_COMPLIANT — the setting will be remediated to Disabled.*
+
+
 
 ---
 
