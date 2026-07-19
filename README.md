@@ -1,5 +1,7 @@
 # 🛡️ Azure Encryption-at-Rest Compliance Engine
 
+<img width="1568" height="536" alt="image" src="https://github.com/user-attachments/assets/75659a6f-0a25-45e1-b43e-1d38b5b30e51" />
+
 An automated GRC validation tool that scans Azure environments to verify data-at-rest encryption across Storage Accounts, Managed Disks, and Key Vaults — producing audit-ready compliance evidence for SOC 2, NIST 800-53, and ISO 27001.
 
 Instead of manually clicking through hundreds of resources in the Azure Portal to confirm encryption is enabled and properly configured, this tool programmatically queries Azure Resource Manager, evaluates each resource against a strict compliance baseline, and generates structured reports with specific remediation recommendations for anything that falls short.
@@ -64,6 +66,12 @@ Instead of manually clicking through hundreds of resources in the Azure Portal t
 2. **Resource Discovery:** Read-only API calls are dispatched to Azure Resource Manager to catalog all active storage accounts, managed disks, and key vaults in the subscription.
 3. **State Evaluation:** Returned metadata (e.g. `allowBlobPublicAccess`, `encryption.services.blob.enabled`) is evaluated against predefined compliance baselines.
 4. **Report Generation:** Findings are aggregated into a timestamped JSON report and a CSV summary, saved locally as audit evidence.
+
+<img width="1284" height="704" alt="image" src="https://github.com/user-attachments/assets/1f8152d9-8123-4f32-86d0-09d7844a5256" />
+
+<img width="1302" height="670" alt="image" src="https://github.com/user-attachments/assets/8046a65f-f785-467e-b7b6-083ac5c2cac8" />
+
+*The tool detected public/anonymous blob access enabled on `grcappsadh2s4j` and flagged it as NON_COMPLIANT — the setting will be remediated to Disabled.*
 
 ---
 
